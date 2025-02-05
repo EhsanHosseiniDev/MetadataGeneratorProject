@@ -1,3 +1,3 @@
 ﻿namespace MetadataGenerator.Definitions;
 
-public interface IPageController;
+public interface IQuery<TResponse>;

@@ -1,11 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Reflection;
+using Castle.Core.Internal;
 using MetadataGenerator.Attributes;
 using MetadataGenerator.Definitions;
 using MetadataGenerator.Models;
 
-namespace MetadataGenerator.DescriptionBuilder;
+namespace MetadataGenerator.Extensions;
 
 public static class PropertyDescriptionExtension
 {
@@ -36,7 +39,10 @@ public static class PropertyDescriptionExtension
 
     public static PropertyType GetConvertedType(this Type propertyType, bool isObject = false)
     {
-        if (isObject)
+        if (isObject || 
+            propertyType == typeof(ICollection<>) || 
+            propertyType == typeof(IEnumerable<>) || 
+            propertyType == typeof(List<>) || propertyType == typeof(object))
             return PropertyType.Object;
         if (propertyType == typeof(string))
             return PropertyType.String;
@@ -50,6 +56,8 @@ public static class PropertyDescriptionExtension
             return PropertyType.DateTime;
         if (propertyType == typeof(bool))
             return PropertyType.Boolean;
+        if (propertyType == typeof(Guid))
+            return PropertyType.Guid;
 
         return PropertyType.String;
     }

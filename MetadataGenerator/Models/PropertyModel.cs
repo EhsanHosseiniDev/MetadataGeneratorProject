@@ -2,7 +2,7 @@
 
 namespace MetadataGenerator.Models;
 
-public class PropertyDescription
+public class PropertyModel
 {
     public string Name { get; set; } = string.Empty;
     public string Display { get; set; } = string.Empty;
@@ -15,7 +15,7 @@ public class PropertyDescription
     public bool Searchable { get; set; }
     public bool Sortable { get; set; }
     public int Order { get; set; }
-    public PropertyType PropertyType { get; set; }
+    public string PropertyType { get; set; } = string.Empty;
     public string[] DefaultValues { get; set; } = [];
-    public List<PropertyDescription> PropertyDescriptions { get; set; } = new();
+    public List<PropertyModel>? PropertyDescriptions { get; set; }
 }

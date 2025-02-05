@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetadataGenerator", "Metada
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebApi", "SampleWebApi\SampleWebApi.csproj", "{874D2041-1A87-42A9-8971-73D2C5C62E8C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetadataGenerator.Test", "MetadataGenerator.Test\MetadataGenerator.Test.csproj", "{8CFDA4D5-83C7-4236-A7EF-1D081D183036}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{874D2041-1A87-42A9-8971-73D2C5C62E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{874D2041-1A87-42A9-8971-73D2C5C62E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{874D2041-1A87-42A9-8971-73D2C5C62E8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CFDA4D5-83C7-4236-A7EF-1D081D183036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CFDA4D5-83C7-4236-A7EF-1D081D183036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CFDA4D5-83C7-4236-A7EF-1D081D183036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CFDA4D5-83C7-4236-A7EF-1D081D183036}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

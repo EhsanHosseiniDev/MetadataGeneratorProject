@@ -13,9 +13,11 @@
 
 ---
 
-## Angular Project Link
+## FrontEnd Project Link
 
-[![Angular Project](https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-angular-framework-flaticons-lineal-color-flat-icons.png)](https://github.com/your-angular-project-link)  
-**Bald verfügbar!**
+<p align="center">
+  <img src="/document/angular.png" alt="angular-logo" width="120px" height="120px"/>
+  <img src="/document/blazor.png" alt="angular-logo" width="120px" height="120px"/>
+</p>
 
 ---

@@ -20,4 +20,5 @@
   <img src="/document/blazor.png" alt="angular-logo" width="120px" height="120px"/>
 </p>
 
+**Bald verfügbar!**
 ---

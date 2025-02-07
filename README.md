@@ -13,10 +13,13 @@
 
 ---
 
-## Angular Project Link
+## FrontEnd Project Link
 
 <p align="center">
   <img src="/document/angular.png" alt="angular-logo" width="120px" height="120px"/>
+</p>
+<p align="center">
+  <img src="/document/blazor.png" alt="angular-logo" width="120px" height="120px"/>
 </p>
 **Coming Soon!**
 

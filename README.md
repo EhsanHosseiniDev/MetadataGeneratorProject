@@ -15,7 +15,9 @@
 
 ## Angular Project Link
 
-[![Angular Project](https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-angular-framework-flaticons-lineal-color-flat-icons.png)](https://github.com/your-angular-project-link)  
+<p align="center">
+  <img src="adev/src/assets/images/press-kit/angular_icon_gradient.gif" alt="angular-logo" width="120px" height="120px"/>
+</p>
 **Coming Soon!**
 
 ---

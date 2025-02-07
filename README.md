@@ -16,7 +16,7 @@
 ## Angular Project Link
 
 <p align="center">
-  <img src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/512px-Angular_full_color_logo.svg.png" alt="angular-logo" width="120px" height="120px"/>
+  <img src="/document/angular.png" alt="angular-logo" width="120px" height="120px"/>
 </p>
 **Coming Soon!**
 
